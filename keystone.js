@@ -94,7 +94,7 @@ keystone.set('nav', {
 });
 
 // configure mongo
-keystone.set('mongo',process.env.MONGO_URI || "mongodb://localhost:3000")
+keystone.set('mongo',process.env.MONGOLAB_URI || "mongodb://localhost:3000")
 
 // Start Keystone to connect to your database and initialise the web server
 
