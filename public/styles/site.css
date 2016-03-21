@@ -1,0 +1,48 @@
+@import "readable.css";
+#header {
+  margin-top: 30px;
+}
+#footer {
+  margin-top: 30px;
+  border-top: 1px solid gray-lighter;
+  padding-top: 30px;
+  color: gray-light;
+}
+.gallery-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.cabin {
+  font-family: 'Bad Script';
+}
+.real-cabin {
+  font-family: 'Cabin';
+}
+body {
+  background-color: #fff;
+}
+li a {
+  color: #14bdeb !important;
+  text-decoration: none;
+}
+.main-link {
+  color: #dccde8;
+}
+.black {
+  background-color: #fff;
+  border-radius: 12px;
+}
+.raleway {
+  font-family: 'Raleway Dots';
+}
+.green {
+  background-color: #14bdeb !important;
+  border-color: #fff !important;
+}
+.green-font {
+  color: #14bdeb !important;
+}
+.jumbotron {
+  background-color: #fff !important;
+}
